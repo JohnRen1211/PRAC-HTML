@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #3b5998; /* Facebook blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+.hobby-image {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+ul, ol {
+    margin: 20px;
+    padding-left: 40px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.subscribe-button {
+    background-color: red; /* YouTube red */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.subscribe-button:hover {
+    background-color: darkred;
+}
+
+/* Flexbox layout for centering elements */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nav-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 10px 0 0 0; /* Add margin to separate from the header */
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center the items horizontally */
+}
+
+.nav-list li{
+    margin: 11px;
+}
